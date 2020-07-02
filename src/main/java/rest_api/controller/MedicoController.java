@@ -42,7 +42,7 @@ public class MedicoController
     }
     // get all medicos
     //Get localhost:puerto/api/medicos
-    @GetMapping("")
+    @GetMapping("/test")
     public List<MMedico> getMedicos()
     {
         return service.listAll();
